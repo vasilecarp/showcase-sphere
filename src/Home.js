@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import PortfolioItem from "./PortfolioItem";
 
 function Home() {
   return (
@@ -11,7 +12,8 @@ function Home() {
           alt=""
         />
         <div className="home__row">
-            
+          <PortfolioItem />
+          <PortfolioItem />
         </div>
         <div className="home__row"></div>
         <div className="home__row"></div>

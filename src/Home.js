@@ -12,11 +12,19 @@ function Home() {
           alt=""
         />
         <div className="home__row">
+          <PortfolioItem
+            title="DISCOVER THE WORLD"
+            image="https://themewagon.com/wp-content/uploads/2020/04/travelix-1.jpg"
+          />
+          <PortfolioItem />
+        </div>
+        <div className="home__row">
+          <PortfolioItem />
+        </div>
+        <div className="home__row">
           <PortfolioItem />
           <PortfolioItem />
         </div>
-        <div className="home__row"></div>
-        <div className="home__row"></div>
       </div>
     </div>
   );

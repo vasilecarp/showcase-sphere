@@ -3,31 +3,52 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    margin: 10px;
-    padding: 20px;
+    margin: 80px;
+    /* Increased margin */
+    padding: 15px;
+    /* Increased padding */
     width: 100%;
     max-height: 400px;
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Added transition for smooth hover effect */
+}
+
+.portofolioitem:hover {
+    transform: scale(1.05);
+    /* Slight scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow effect on hover */
 }
 
 .portofolioitem {
     height: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    /* Increased bottom margin */
 }
 
 .portofolioitem>img {
     max-height: 200px;
     width: 100%;
     object-fit: contain;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    /* Increased bottom margin */
 }
 
 .portofolioitem>button {
     background: #384449;
     border: 1px solid;
-    margin-top: 10px;
+    margin-top: 15px;
+    /* Increased top margin */
     border-color: #a88734 #9c7e31 #846a29;
     color: #ffffff;
+    transition: background-color 0.3s ease;
+    /* Transition for smooth background color change */
+}
+
+.portofolioitem>button:hover {
+    background-color: #506065;
+    /* Darker background on hover */
 }

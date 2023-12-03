@@ -17,7 +17,7 @@ function Home() {
             image="https://themewagon.com/wp-content/uploads/2020/04/travelix-1.jpg"
           />
           <PortfolioItem
-            title="Vacation"
+            title="VACATION"
             image="https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/10/free-travel-agency-website-templates-1000x750.jpg"
           />
         </div>

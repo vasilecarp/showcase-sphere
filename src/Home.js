@@ -16,14 +16,26 @@ function Home() {
             title="DISCOVER THE WORLD"
             image="https://themewagon.com/wp-content/uploads/2020/04/travelix-1.jpg"
           />
-          <PortfolioItem />
+          <PortfolioItem
+            title="Vacation"
+            image="https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/10/free-travel-agency-website-templates-1000x750.jpg"
+          />
         </div>
         <div className="home__row">
-          <PortfolioItem />
+          <PortfolioItem
+            title="LOVE TRAVEL"
+            image="https://www.aerobusinesssolutions.com/wp-content/uploads/travel-website-featured-image-1024x595.jpg"
+          />
         </div>
         <div className="home__row">
-          <PortfolioItem />
-          <PortfolioItem />
+          <PortfolioItem
+            title="DUTCHEXPLORERS"
+            image="https://a4h6c5c5.rocketcdn.me/wp-content/uploads/2021/05/Dutch-Explorers-Travel-Agency-Website-Example.jpg"
+          />
+          <PortfolioItem
+            title="JOURNEY"
+            image="https://cdn4.vectorstock.com/i/1000x1000/24/38/travel-agency-website-homepage-design-vector-22492438.jpg"
+          />
         </div>
       </div>
     </div>
